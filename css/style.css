@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-bg {
+    background: purple;
+    color: #fff;
+}
+
+#main-header {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#main-header h1 {
+    padding-bottom: 10px;
+    margin: 10px 0 5px;
+}
+
+#main-header h2 {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#main-header p {
+    margin-bottom: 10px;
+}
+
+.dragon-one {
+    margin-right: 50px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.dragon-two {
+    position: absolute;
+    margin-left: 50px;
+    top: 20px;
+    right: 300px;
+}
+
+.contact {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-justify: initial;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.contact p {
+    padding: .5rem;
+}
+
+.contact h3 {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.materials {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.materials h3 {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.materials p {
+    padding: 5px;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+}
+
+.responsibility {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.grade-scale {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10px;
+    grid-gap: 1rem;
+}
+
+.responsibility h3 {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.responsibility p {
+    padding: 10px;
+}
+
+.grade-scale h3 {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.grade-scale p {
+    padding: 10px;
+}
+
+.grid-three {
+    margin-top: 10px;
+    border: 1px #333 solid;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left-side {
+    margin-left: -1200px;
+    margin-top: 90px;
+}
+
+.right-side {
+    margin-left: 900px;
+    margin-top: -230px;
+}
+
+.grid-three p {
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.grid-three h2 {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.meetings {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.meetings h3 {
+    text-decoration: underline;
+}
+
+.meetings p {
+    padding-bottom: 10px;
+}
+
+.assignments {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.assignments h3 {
+    text-decoration: underline;
+}
+
+.assignments p {
+    padding-bottom: 10px;
+}
+
+.assignments .space {
+    margin: 10px 0;
+}
+
+.grid-four {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    margin-top: 10px;
+}
+
+.class-time {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.class-time h3 {
+    text-decoration: underline;
+}
+
+.electronics {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.electronics h3 {
+    text-decoration: underline;
+}
+
+.grid-five {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 10px;
+}
+
+.absences {
+    padding: 3rem;
+    border: 1px solid #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.absences h3 {
+    text-decoration: underline;
+}
+
+.grid-six {
+    margin-top: 10px;
+}
